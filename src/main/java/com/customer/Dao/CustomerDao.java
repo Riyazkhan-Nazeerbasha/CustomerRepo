@@ -15,7 +15,7 @@ public class CustomerDao {
 	
 	public String postAll(List<CustomerEntity> p) {
 		cr.saveAll(p);
-		return "POSTED";
+		return "Completed";
 	}
 	
 
